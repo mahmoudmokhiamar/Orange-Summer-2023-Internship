@@ -1,12 +1,12 @@
 
 # Contents
-[Installation and Setup	2](#_toc143013280)
+[Installation and Setup	](#_toc143013280)
 
-[Configuring the deployment	2](#_toc143013281)
+[Configuring the deployment	](#_toc143013281)
 
-[Configuring a Service	4](#_toc143013282)
+[Configuring a Service	](#_toc143013282)
 
-[Testing the deployment	5](#_toc143013283)
+[Testing the deployment	](#_toc143013283)
 
 
 # Installation and Setup
