@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  api:
+    build: mahmoudmokhiamar/mynginx:v4
+    container_name: nginx2_c
+    ports:
+      - '80:8080'
+    volumes:
+      - .:/usr/share/nginx/html
