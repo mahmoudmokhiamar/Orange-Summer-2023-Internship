@@ -20,7 +20,7 @@
     create VMs).
 
 > ![A screenshot of a computer Description automatically
-> generated](vertopal_305837dc34604516b50f0c5e98963468/media/image1.png)
+> generated](media/image1.png)
 >
 > To determine the path of VBoxManage.exe go to properties of Virtual
 > Box in the target section and copy the stated path to the environment
@@ -43,7 +43,7 @@
 2.  Create the nginx deployment YAML file:
 
 ![A screen shot of a computer Description automatically
-generated](vertopal_305837dc34604516b50f0c5e98963468/media/image2.png)
+generated](media/image2.png)
 
 3.  This YAML file is equivalent to a service descriptor specifying that
     3 pods of nginx containers will be created with the nginx image
@@ -67,12 +67,12 @@ generated](vertopal_305837dc34604516b50f0c5e98963468/media/image2.png)
 6.  After creating the deployment this response should be generated for
     a successful deployment.
 
-![](vertopal_305837dc34604516b50f0c5e98963468/media/image3.png)
+![](media/image3.png)
 
 7.  To ensure that the deployment pods are created and running
     successfully you can use: kubectl get deploy.
 
-![](vertopal_305837dc34604516b50f0c5e98963468/media/image4.png)
+![](media/image4.png)
 
 Here we can see the 3 pods are ready, available, and up to date.
 
@@ -89,7 +89,7 @@ need to create a service of type node port.
     configuration of the service.
 
 ![A screen shot of a computer Description automatically
-generated](vertopal_305837dc34604516b50f0c5e98963468/media/image5.png)
+generated](media/image5.png)
 
 2.  The kind: Service defines the resource type; a service is an
     abstraction that enables network access to a set of pods in
@@ -134,7 +134,7 @@ image of the containers) , we can test that everything is working now.
     service.
 
 > ![A screen shot of a computer Description automatically
-> generated](vertopal_305837dc34604516b50f0c5e98963468/media/image6.png)
+> generated](media/image6.png)
 
 4.  Here we can determine that 3 endpoints were established with 3
     different Ips (for 3 pods).
@@ -147,6 +147,6 @@ image of the containers) , we can test that everything is working now.
 6.  Executing the command should result in your HTML file used for the
     website to be shown in the terminal. ![A screen shot of a computer
     Description automatically
-    generated](vertopal_305837dc34604516b50f0c5e98963468/media/image7.png)
+    generated](media/image7.png)
 > Congratulations you have finished the deployment of your static html
 > website using nginx and Kubernetes !
